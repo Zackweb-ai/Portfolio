@@ -1,0 +1,10 @@
+.top{
+    position: relative;
+    padding-bottom: 150px;
+ 
+  }
+  .side-pic{
+    position: absolute;
+    bottom:9%;
+    right: 10.5%;
+  }
