@@ -11,17 +11,15 @@ export default function Portfolio() {
   return (
     <div id="Portfolio" className="container-fluid pad-top">
       <div className="row  ">
-        <div ref={animation_progress} className={`container d-flex justify-content-around portfolio-left-with`}>
+        <div ref={animation_progress} className={`container d-flex justify-content-around portfolio-left-with mobfix`}>
           <div className= {`${load? 'animate__animated animate__fadeInUp' :'' } col-md-6  d-flex align-items-center justify-content-center`}>
-            <div className="ps-5">
+            <div className="ps-5 pfix">
               <h3 className="main-color ">Design is Life</h3>
               <p className="secondary fs-2 fw-bold">
                 I Develop Skills Regularly to Keep Me Update
               </p>
-              <p className="pt-3">
+              <p className="pt-3 addp">
                 Most common methods for designing websites that work well on desktop is responsive and adaptive design
-
-
               </p>
               <h5 className="secondary mt-4">React</h5>
               <div className="progress mb-4" style={{ height: 8 + 'px' }} role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
@@ -34,12 +32,12 @@ export default function Portfolio() {
               </div>
               <h5 className="secondary">JavaScript</h5>
               <div className="progress" role="progressbar" style={{ height: 8 + 'px' }} aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                <div className={` bg-warning ${load? 'progress-bar' :'' }`}  style={{ width:'80%' }}></div>
+                <div className={` bg-warning ${load? 'progress-bar' :'' } `}  style={{ width:'80%' }}></div>
               </div>
 
             </div>
           </div>
-          <div className="col-md-6 offset-md-1 d-flex ps-5 justify-content-center align-items-center">
+          <div className="col-md-6 offset-md-1 d-flex ps-5 justify-content-center align-items-center addm pfix">
             <img
               className="main-photo-size"
               src={Portfolio_pic}

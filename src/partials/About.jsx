@@ -12,7 +12,7 @@ export default function () {
         <>
             <div id="About"  className="container-fluid pad-top">
                 <div className="row  ">
-                    <div className="container d-flex justify-content-around w-75">
+                    <div className="container d-flex justify-content-around w-75 mobfix">
                     <div className="col-md-6 d-flex justify-content-center align-items-center">
                             <img
                                 className= {` main-photo-size `}
@@ -22,7 +22,7 @@ export default function () {
                             
                     </div>
                     <div  className={`col-md-6 d-flex align-items-center justify-content-center`}>
-                                <div className="ps-5">
+                                <div className="ps-5 pfix">
                                     <h3 ref={slideRef} className= {`main-color ${show? 'animate__animated animate__fadeInUp' :'' }`} >I'm A Developer</h3>
                                     <p className={`secondary fs-1 fw-bold ${show? 'animate__animated animate__fadeInUp third ' :'' }`}>
                                         I Can Develop Anything You Want

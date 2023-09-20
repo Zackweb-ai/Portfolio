@@ -70,7 +70,7 @@ export default function Service_cards() {
         </div>
         <div className="col-md-6 cards_overflow">
           <div className=" container-fluid service-cards justify-content-center d-flex mt-5 ">
-                  <div className="row flex-column gap-4  align-items-start">
+                  <div className="row flex-column gap-4  align-items-start psfix">
               <div className="col-md-6 service-card portfolio-left-with">
               <Tilt>
           <div ref={animation_progress} className= {`${load?'animate__animated animate__fadeInRight right':''} row service-back rounded-4`}>
