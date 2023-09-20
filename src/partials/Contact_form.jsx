@@ -91,8 +91,8 @@ export default function Contact_form() {
           </div>
         </div>
         <div className={`${load? 'animate__animated animate__fadeInRight contact' :'' } col-md-6`}>
-                  <div className="form">
-                      <form onSubmit={handleSubmit}>
+                  <div className="form ">
+                      <form className='container' onSubmit={handleSubmit}>
                           <div className="first_row portfolio-left-with">
                           <ul className=' remove_d d-flex justify-content-between'>
                               <li>
