@@ -337,6 +337,6 @@ h2{
         text-align: center;
     }
     .portfolio-left-with {
-        width: 100%;
+        width: 100% !important;
     }
 }
