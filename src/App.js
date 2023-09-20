@@ -8,6 +8,7 @@ import './assets/css/Body.css'
 
 
 function App() {
+  document.cookie = "myCookie=myValue; SameSite=None; Secure";
   return (
     <>
       <div className="container-fluid body px-0">
