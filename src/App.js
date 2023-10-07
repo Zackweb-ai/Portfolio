@@ -3,6 +3,7 @@ import './assets/css/header.css'
 import Body from "./partials/Body";
 import 'animate.css';
 import './assets/css/Body.css'
+import '../node_modules/swiper/swiper.css'
 
 
 

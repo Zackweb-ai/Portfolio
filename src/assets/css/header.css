@@ -226,6 +226,9 @@ h2{
     background-color: transparent !important;
     display: none;
   }
+  .projects img{
+    height: 260px;
+  }
 @media (max-width : 420px) {
     .logo-size{
         display: none;
@@ -339,4 +342,7 @@ h2{
     .portfolio-left-with {
         width: 100% !important;
     }
+    .mb-view{
+        gap: 20px;
+      }
 }

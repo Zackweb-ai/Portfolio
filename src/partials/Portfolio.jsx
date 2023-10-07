@@ -19,7 +19,7 @@ export default function Portfolio() {
                 I Develop Skills Regularly to Keep Me Update
               </p>
               <p className="pt-3 addp">
-                Most common methods for designing websites that work well on desktop is responsive and adaptive design
+              Continuous improvement is my mantra. I make it a point to regularly enhance my skills to stay up-to-date with the latest industry trends and technologies.
               </p>
               <h5 className="secondary mt-4">React</h5>
               <div className="progress mb-4" style={{ height: 8 + 'px' }} role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">

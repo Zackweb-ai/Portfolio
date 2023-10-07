@@ -89,7 +89,7 @@ export default function Header() {
                   A <span className='green'>Fullstack Developer</span> From Morocco
                 </p>
                 <p className='secondary'>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, eaque.
+                excited about the opportunity to contribute to the success of your website. 
                 </p>
                 <div className='col-md-12 '>
                   <div className='col-md-6 d-flex align-items-start about'>

@@ -26,7 +26,7 @@ export default function Service_cards() {
       <div className="container-fluid cards_overflow">
         <div className="row">
         <div className="col-md-6 cards_overflow">
-          <div className=" container-fluid service-cards justify-content-center d-flex mt-5 ">
+          <div className=" container-fluid service-cards justify-content-center d-flex mt-5 mb-5">
                   <div className="row flex-column gap-4  align-items-end">
               <div className="col-md-6 service-card portfolio-left-with">
                 <Tilt>
@@ -35,9 +35,9 @@ export default function Service_cards() {
                           <img src={icon_service_1} alt="" />
                             </div>
           <div className="col-md-6 s-with-text">
-          <h3 className='secondary'>Creative Design</h3>
-          <p className='secondary fw-bold '>Starts from <span className='main-size main-color'> 99$</span></p>
-          <p style={{lineHeight:30+'px'}}>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development</p>
+          <h3 className='secondary'>Web Development</h3>
+          {/* <p className='secondary fw-bold '>Starts from <span className='main-size main-color'> 99$</span></p> */}
+          <p style={{lineHeight:30+'px'}}>Our web development service offers a holistic approach to building web solutions that blend creativity, functionality, and technical excellence. Whether it's a sleek and responsive website, a dynamic web application, or an interactive e-commerce platform, we bring your vision to life. With expertise in front-end and back-end technologies</p>
 
                             </div>
                   </div>
@@ -54,8 +54,8 @@ export default function Service_cards() {
                             </div>
           <div className="col-md-6 s-with-text">
           <h3 className='secondary'>UI/UX Design</h3>
-          <p className='secondary fw-bold '>Starts from <span className='main-size main-color'> 299$</span></p>
-          <p style={{lineHeight:30+'px'}}>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development</p>
+          {/* <p className='secondary fw-bold '>Starts from <span className='main-size main-color'> 299$</span></p> */}
+          <p style={{lineHeight:30+'px'}}>consider the overall user experience, including user flow, information architecture, and usability testing, to ensure that websites are easy to navigate and provide a positive experience for visitors</p>
 
                             </div>
                   </div>
@@ -78,9 +78,9 @@ export default function Service_cards() {
                           <img src={icon_service_3} alt="" />
                             </div>
           <div className="col-md-6 s-with-text">
-          <h3 className='secondary'>Graphic Design</h3>
-          <p className='secondary fw-bold '>Starts from <span className='main-size main-color'> 199$</span></p>
-          <p style={{lineHeight:30+'px'}}>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development</p>
+          <h3 className='secondary'>Performance Optimization</h3>
+          {/* <p className='secondary fw-bold '>Starts from <span className='main-size main-color'> 199$</span></p> */}
+          <p style={{lineHeight:30+'px'}}>optimize the performance of websites by minimizing page load times, optimizing images, and implementing best practices for front-end performance.</p>
 
                             </div>
                 </div>
@@ -98,8 +98,8 @@ export default function Service_cards() {
                             </div>
           <div className="col-md-6 s-with-text">
           <h3 className='secondary'>Web Design</h3>
-          <p className='secondary fw-bold '>Starts from <span className='main-size main-color'> 399$</span></p>
-          <p style={{lineHeight:30+'px'}}>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development</p>
+          {/* <p className='secondary fw-bold '>Starts from <span className='main-size main-color'> 399$</span></p> */}
+          <p style={{lineHeight:30+'px'}}>Designing the layout, user interface, and overall look and feel of websites to ensure they are visually appealing and user-friendly.</p>
 
                             </div>
           </div>

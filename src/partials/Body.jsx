@@ -9,6 +9,8 @@ import Contact from './Contact'
 import Contact_form from './Contact_form'
 import Map from './Map'
 import Footer from './Footer'
+import Projects from './Projects'
+import '../assets/css/Projects.css'
 
 
 
@@ -22,6 +24,7 @@ export default function Body() {
       <Portfolio></Portfolio>
       <Service></Service>
       <Service_cards></Service_cards>
+      <Projects></Projects>
       <Contact></Contact>
       <Contact_form></Contact_form>
       <Map></Map>

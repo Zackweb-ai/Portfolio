@@ -28,13 +28,7 @@ export default function () {
                                         I Can Develop Anything You Want
                                     </p>
                                     <p className= {`pt-3 ${show? 'animate__animated animate__fadeInUp forth' :'' }`}>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Esse assumenda similique quis nulla, quidem commodi
-                                        exercitationem ratione consectetur dignissimos? Vel ducimus,
-                                        iure vitae enim ipsam eligendi. Reiciendis doloribus,
-                                        dolorum facere totam quam ullam placeat voluptas labore
-                                        maiores optio officiis, veritatis quo provident? Harum fugit
-                                        explicabo optio officia! Delectus, dolore quidem.
+                                    As a developer, I possess the skills and expertise to create a wide range of solutions tailored to your specific needs. Whether it's designing and developing a user-friendly website, crafting a custom software application, or implementing complex algorithms to solve intricate problems, I'm here to bring your ideas to life. My commitment to excellence and attention to detail ensure that the end result aligns perfectly with your vision. Let's collaborate to turn your concepts into reality and achieve your development goals together.
                                 </p>
                                 <button className= {`btn-out3 mt-3 ${show? 'animate__animated animate__fadeInUp fifth' :'' }`} >Hire Me</button>
 
