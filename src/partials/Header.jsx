@@ -4,6 +4,7 @@ import avatar from "../assets/images/prof.png";
 import Boot_logo from '../assets/images/bootstrap.png';
 import Rea_logo from '../assets/images/react.png';
 import JS from '../assets/images/js.png';
+import CV from '../assets/resume.pdf';
 
 export default function Header() {
   const [Navbar, setNavbar] = useState(false);
@@ -72,9 +73,9 @@ export default function Header() {
                 </li>
               </ul>
               <form className='d-flex'>
-                <button className='btn-out' type='button'>
+                <a className='btn-out' href={CV} download='My Resume'>
                   Download CV
-                </button>
+                </a>
               </form>
             </div>
           </div>

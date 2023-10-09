@@ -60,8 +60,8 @@ color: var(--main);
     color: var(--secondary);
 }
 .btn-out:hover{
-	/* padding:6px 25px 6px 25px; */
-    width: 130px;
+	padding:6px 25px 6px 25px;
+    width: 150px;
     height: 35px;
     /* margin-left: 30px; */
     border-radius: 50px;
@@ -73,10 +73,10 @@ color: var(--main);
 }
 
 .btn-out{
-	/* padding: 6px 25px 6px 25px; */
+	padding: 6px 25px 6px 25px;
     position: relative;
     height: 35px;
-    width: 130px;
+    width: 150px;
     margin-left: 30px;
     border-radius: 50px;
     background-color: transparent;
@@ -85,6 +85,9 @@ color: var(--main);
     outline: 2px solid var(--main);
     font-weight: 500;
     border: none;
+}
+.btn-out:link{
+    text-decoration: none;
 }
 .btn-out2{
 	padding: 10px 30px 10px 30px;
